@@ -60,7 +60,7 @@ const Navbar = () => {
 
         {/* Navbar Sticky */}
 
-        <div className={`flex items-center justify-between px-6 py-3 bg-blue-950 shadow-md z-50 fixed top-0 left-0 w-full transform transition-transform duration-300 ${showNavbar ? "translate-y-0" : "-translate-y-full"}` }>
+        <div className={`flex items-center justify-between px-6 py-3 bg-blue-950 shadow-md z-10 fixed top-0 left-0 w-full transform transition-transform duration-300 ${showNavbar ? "translate-y-0" : "-translate-y-full"}` }>
         {/* Logo */}
         <div className="font-semibold  text-yellow-500 text-xl sm:text-2xl">
           บ้านนายดิน
